@@ -1,0 +1,15 @@
+{
+  "name": "sa4-lab4-health",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "start:local": "node --env-file=.env.example src/server.mjs",
+    "health": "node scripts/health-check.mjs",
+    "config": "node scripts/print-config.mjs"
+  }
+}
